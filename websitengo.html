@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youth Association NGO</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(90deg,#ff9933,#ffffff,#138808);
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1400&auto=format&fit=crop') center/cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:48px;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+section{
+    padding:50px 10%;
+    background:white;
+    margin:20px;
+    border-radius:15px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:36px;
+    color:#ff6600;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.quote-box{
+    background:#fff7e6;
+    padding:25px;
+    margin:20px 0;
+    border-left:8px solid orange;
+    border-radius:10px;
+    font-size:22px;
+    font-style:italic;
+}
+
+.volunteer-card{
+    background:#fafafa;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.qr-section{
+    text-align:center;
+}
+
+.qr-section img{
+    width:250px;
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#28a745;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:18px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.edit-note{
+    background:#e8f4ff;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Youth Association NGO</h1>
+    <p>Inspired by Service, Unity & Humanity</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#vivekananda">Vivekananda</a>
+    <a href="#activities">Activities</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>"Arise, Awake and Stop Not Till The Goal Is Reached"</h2>
+</div>
+
+<section id="about">
+    <h2 class="section-title">About Our Association</h2>
+    <p>
+        Our Youth Association NGO works towards helping poor families,
+        organizing blood donation camps, supporting education,
+        and encouraging youth to participate in social service activities.
+    </p>
+
+    <div class="quote-box">
+        "Take up one idea. Make that one idea your life."
+        – Swami Vivekananda
+    </div>
+</section>
+
+<section id="vivekananda">
+    <h2 class="section-title">Swami Vivekananda Inspiration</h2>
+
+    <div class="gallery">
+        <img src="https://images.openai.com/static-rsc-4/oCnFApZ63NMqeDrdiysNmBfoBoYOlVfsxWzIubBxkeLiyCNng0YhyKa9UnoLzvyW8tWcjzvF0BECUcIodbCH1C7Xulq5IDl6C4wUG2Pe-krYJkqAQ4GQmAXDj3YZO4YCUlGTzZoJTLAuOsRVQ2DzCol7nLE7mFoA1888OUn3nty6v-joH28G8XBfnR6Mei0v?purpose=fullsize" alt="Vivekananda">
+        <img src="https://images.openai.com/static-rsc-4/clTzoZF4dMjoDrSamMW6-Yzk_DFV8-rkzKGO2_8ezVffGbjeA6KjH0NDAvKXY4KQh_YNPixjG6qHzoGzn8ZtPwUnDRjl9eemPio0jg6q4WynokeSuKEx7YwqZQO55RhvAkPro2KT-pzTEDFCD1pBQwttOwS-M84iWmvVgn8IpuE?purpose=inline" alt="Youth Meeting">
+        <img src="https://images.openai.com/static-rsc-4/dsYycfsFzII4kawpA6meoHSzRKijXkSXgy8pBsLJIENVDo_xGEXo1791ifWUBKL0WyR2hy2SXe-5NyEvh1KrY84sgfSPWTU2kKafGcAqaIHvm5kUf4LP3C4sTo0frQ2SxNvuijQIHMewLpLCV000iQgZ_88q8jw2Q5RrHGA3CpM?purpose=inline" alt="Teamwork">
+    </div>
+
+    <div class="quote-box">
+        "You cannot believe in God until you believe in yourself."
+    </div>
+
+    <div class="quote-box">
+        "Strength is life; weakness is death."
+    </div>
+</section>
+
+<section id="activities">
+    <h2 class="section-title">NGO Activities</h2>
+
+    <div class="gallery">
+        <img src="https://images.openai.com/static-rsc-4/i_Dttdcg2b_BNVBCN-LFjZfveBAUhBO0n1zPAuNpsOAkG6l2aHWrKzZvjdDG3pNcl7ul5pQpFssVGmz7O-7omvMVQdvrIxAMRrAdeOVoimtHmuJrfVARDIV9hOzLrFohgXTiKi6Hc1X81-kLKKrKgmEuy11csAKqBuW8mwZLzAc?purpose=inline" alt="Helping People">
+        <img src="https://images.openai.com/static-rsc-4/7Atovca7rD5IzxOMUMoEmafyy4gbyfk9chsuEjUU8NoByHTzTM7dPeNUzTAB8_v0OMS1OTvY00h37Ges-_VKYim1qfhCxiLfaA1GvsZcG3aYv0H_-olhqoDydn_j4txjjahU7kBD9_kh-usO5iY2dtXABR4F4NMx3CPRA29ttxk?purpose=inline" alt="Volunteer Work">
+        <img src="https://images.openai.com/static-rsc-4/HesrPvUN0ICfF5yfy06B9u4k9rs0Kw23s-1MWLaLwdQ-SnJ5eVgKMVg6q1nwefdYOWNmZEKRMAtlLSBbvWzY1VsHuU6wkkxbotOpF8fAQwXTC5L8GxpR7KJJFbtVrY7ZHe1NcjUIR-FCclK4dyIHDrSQ3yNUpEt5o7djJ3MvJF6SSuVTsZ_lg_gPmYkPLO60?purpose=fullsize" alt="All Together">
+    </div>
+
+    <br><br>
+
+    <div class="volunteer-card">
+        <h3>Become a Volunteer</h3>
+        <p>
+            Join our mission to help society and inspire youth for a better future.
+        </p>
+    </div>
+</section>
+
+<section id="donate" class="qr-section">
+    <h2 class="section-title">Support Our Mission</h2>
+
+    <p>
+        Scan the QR code below to donate using any UPI app.
+    </p>
+
+    <!-- Replace this image with your actual UPI QR -->
+    <img src="image/AccountQRCodeState Bank of India - 3025_LIGHT_THEME.png" alt="UPI QR Code">
+
+    <br>
+
+    
+    <a class="btn" href="upi://pay?pa=9121090380@axl&pn=YASHWANTH%20%20KEMA&mc=0000&mode=02&purpose=00">
+        Donate via UPI
+    </a>
+
+    
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <p><strong>Association Name:</strong> Youth Association NGO</p>
+    <p><strong>Phone:</strong> +91 9121090380</p>
+    <p><strong>Email:</strong> youthassociation@email.com</p>
+    <p><strong>Location:</strong> Telangana, India</p>
+</section>
+
+<footer>
+    <p>© 2026 Youth Association NGO | Service to Humanity</p>
+</footer>
+
+</body>
+</html>
